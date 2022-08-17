@@ -14,3 +14,12 @@
 <sup>I like to play game</sup>
 
 > I was born in Thailand
+
+I am `Thai` 100%
+
+![This is image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAOopDwAKdXQ2KNcyL2FIeG1FP0PLjRuK3JA&usqp=CAU)
+
+- hi
+- hello
+- morning 
+[ ] math homework
