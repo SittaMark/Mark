@@ -1,7 +1,11 @@
-SEND "Temparature
-RECIEVE "Temperature" from keyboard
-IF SEND "temperature less than 18 degrees"
-RECIEVE "cold, the perfect the temperature 18-21 degrees" from keyboard
-SEND "NO the perfect temperature for sleep is 18-21 degrees" from keyboard
-RECIEVE "NO the perfect temperature for sleep is 18-21 degrees" from keyboard
-SEND "Yes perfect"
+SEND "Please enter the temperature" TO DISPLAY
+RECEIVE temperature FROM KEYBOARD
+IF temperature < 18 degrees THEN
+SEND "Cold, the perfect temperature for sleep is 18-21 degrees" TO DISPLAY
+ELSE
+IF temperature > 21 degrees THEN
+SEND "Perfect" TO DISPLAY
+ELSE
+SEND "No!, the perfect temperature for sleep is 18-21 degrees" TO DISPLAY
+END IF
+END IF
